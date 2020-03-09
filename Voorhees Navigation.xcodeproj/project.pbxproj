@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D786F89C24167DC80020E382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F89B24167DC80020E382 /* AppDelegate.swift */; };
+		D786F89E24167DC80020E382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F89D24167DC80020E382 /* SceneDelegate.swift */; };
+		D786F8A024167DC80020E382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F89F24167DC80020E382 /* ViewController.swift */; };
+		D786F8A324167DC80020E382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D786F8A124167DC80020E382 /* Main.storyboard */; };
+		D786F8A524167DCD0020E382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D786F8A424167DCD0020E382 /* Assets.xcassets */; };
+		D786F8A824167DCD0020E382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D786F8A624167DCD0020E382 /* LaunchScreen.storyboard */; };
+		D786F8B324167DCD0020E382 /* Voorhees_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8B224167DCD0020E382 /* Voorhees_NavigationTests.swift */; };
+		D786F8BE24167DCD0020E382 /* Voorhees_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8BD24167DCD0020E382 /* Voorhees_NavigationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D786F8AF24167DCD0020E382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D786F89024167DC80020E382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D786F89724167DC80020E382;
+			remoteInfo = "Voorhees Navigation";
+		};
+		D786F8BA24167DCD0020E382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D786F89024167DC80020E382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D786F89724167DC80020E382;
+			remoteInfo = "Voorhees Navigation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D786F89824167DC80020E382 /* Voorhees Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voorhees Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D786F89B24167DC80020E382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D786F89D24167DC80020E382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D786F89F24167DC80020E382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D786F8A224167DC80020E382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D786F8A424167DCD0020E382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D786F8A724167DCD0020E382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D786F8A924167DCD0020E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D786F8AE24167DCD0020E382 /* Voorhees NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees NavigationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D786F8B224167DCD0020E382 /* Voorhees_NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_NavigationTests.swift; sourceTree = "<group>"; };
+		D786F8B424167DCD0020E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D786F8B924167DCD0020E382 /* Voorhees NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D786F8BD24167DCD0020E382 /* Voorhees_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_NavigationUITests.swift; sourceTree = "<group>"; };
+		D786F8BF24167DCD0020E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D786F89524167DC80020E382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8AB24167DCD0020E382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8B624167DCD0020E382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D786F88F24167DC80020E382 = {
+			isa = PBXGroup;
+			children = (
+				D786F89A24167DC80020E382 /* Voorhees Navigation */,
+				D786F8B124167DCD0020E382 /* Voorhees NavigationTests */,
+				D786F8BC24167DCD0020E382 /* Voorhees NavigationUITests */,
+				D786F89924167DC80020E382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D786F89924167DC80020E382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D786F89824167DC80020E382 /* Voorhees Navigation.app */,
+				D786F8AE24167DCD0020E382 /* Voorhees NavigationTests.xctest */,
+				D786F8B924167DCD0020E382 /* Voorhees NavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D786F89A24167DC80020E382 /* Voorhees Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D786F89B24167DC80020E382 /* AppDelegate.swift */,
+				D786F89D24167DC80020E382 /* SceneDelegate.swift */,
+				D786F89F24167DC80020E382 /* ViewController.swift */,
+				D786F8A124167DC80020E382 /* Main.storyboard */,
+				D786F8A424167DCD0020E382 /* Assets.xcassets */,
+				D786F8A624167DCD0020E382 /* LaunchScreen.storyboard */,
+				D786F8A924167DCD0020E382 /* Info.plist */,
+			);
+			path = "Voorhees Navigation";
+			sourceTree = "<group>";
+		};
+		D786F8B124167DCD0020E382 /* Voorhees NavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D786F8B224167DCD0020E382 /* Voorhees_NavigationTests.swift */,
+				D786F8B424167DCD0020E382 /* Info.plist */,
+			);
+			path = "Voorhees NavigationTests";
+			sourceTree = "<group>";
+		};
+		D786F8BC24167DCD0020E382 /* Voorhees NavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D786F8BD24167DCD0020E382 /* Voorhees_NavigationUITests.swift */,
+				D786F8BF24167DCD0020E382 /* Info.plist */,
+			);
+			path = "Voorhees NavigationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D786F89724167DC80020E382 /* Voorhees Navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D786F8C224167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees Navigation" */;
+			buildPhases = (
+				D786F89424167DC80020E382 /* Sources */,
+				D786F89524167DC80020E382 /* Frameworks */,
+				D786F89624167DC80020E382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voorhees Navigation";
+			productName = "Voorhees Navigation";
+			productReference = D786F89824167DC80020E382 /* Voorhees Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D786F8AD24167DCD0020E382 /* Voorhees NavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D786F8C524167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees NavigationTests" */;
+			buildPhases = (
+				D786F8AA24167DCD0020E382 /* Sources */,
+				D786F8AB24167DCD0020E382 /* Frameworks */,
+				D786F8AC24167DCD0020E382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D786F8B024167DCD0020E382 /* PBXTargetDependency */,
+			);
+			name = "Voorhees NavigationTests";
+			productName = "Voorhees NavigationTests";
+			productReference = D786F8AE24167DCD0020E382 /* Voorhees NavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D786F8B824167DCD0020E382 /* Voorhees NavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D786F8C824167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees NavigationUITests" */;
+			buildPhases = (
+				D786F8B524167DCD0020E382 /* Sources */,
+				D786F8B624167DCD0020E382 /* Frameworks */,
+				D786F8B724167DCD0020E382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D786F8BB24167DCD0020E382 /* PBXTargetDependency */,
+			);
+			name = "Voorhees NavigationUITests";
+			productName = "Voorhees NavigationUITests";
+			productReference = D786F8B924167DCD0020E382 /* Voorhees NavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D786F89024167DC80020E382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Caleb Voorhees";
+				TargetAttributes = {
+					D786F89724167DC80020E382 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D786F8AD24167DCD0020E382 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D786F89724167DC80020E382;
+					};
+					D786F8B824167DCD0020E382 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D786F89724167DC80020E382;
+					};
+				};
+			};
+			buildConfigurationList = D786F89324167DC80020E382 /* Build configuration list for PBXProject "Voorhees Navigation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D786F88F24167DC80020E382;
+			productRefGroup = D786F89924167DC80020E382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D786F89724167DC80020E382 /* Voorhees Navigation */,
+				D786F8AD24167DCD0020E382 /* Voorhees NavigationTests */,
+				D786F8B824167DCD0020E382 /* Voorhees NavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D786F89624167DC80020E382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D786F8A824167DCD0020E382 /* LaunchScreen.storyboard in Resources */,
+				D786F8A524167DCD0020E382 /* Assets.xcassets in Resources */,
+				D786F8A324167DC80020E382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8AC24167DCD0020E382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8B724167DCD0020E382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D786F89424167DC80020E382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D786F8A024167DC80020E382 /* ViewController.swift in Sources */,
+				D786F89C24167DC80020E382 /* AppDelegate.swift in Sources */,
+				D786F89E24167DC80020E382 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8AA24167DCD0020E382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D786F8B324167DCD0020E382 /* Voorhees_NavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786F8B524167DCD0020E382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D786F8BE24167DCD0020E382 /* Voorhees_NavigationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D786F8B024167DCD0020E382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D786F89724167DC80020E382 /* Voorhees Navigation */;
+			targetProxy = D786F8AF24167DCD0020E382 /* PBXContainerItemProxy */;
+		};
+		D786F8BB24167DCD0020E382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D786F89724167DC80020E382 /* Voorhees Navigation */;
+			targetProxy = D786F8BA24167DCD0020E382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D786F8A124167DC80020E382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D786F8A224167DC80020E382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D786F8A624167DCD0020E382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D786F8A724167DCD0020E382 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D786F8C024167DCD0020E382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D786F8C124167DCD0020E382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D786F8C324167DCD0020E382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D786F8C424167DCD0020E382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D786F8C624167DCD0020E382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees NavigationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-NavigationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Navigation.app/Voorhees Navigation";
+			};
+			name = Debug;
+		};
+		D786F8C724167DCD0020E382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees NavigationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-NavigationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Navigation.app/Voorhees Navigation";
+			};
+			name = Release;
+		};
+		D786F8C924167DCD0020E382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees NavigationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-NavigationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Navigation";
+			};
+			name = Debug;
+		};
+		D786F8CA24167DCD0020E382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees NavigationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-NavigationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Navigation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D786F89324167DC80020E382 /* Build configuration list for PBXProject "Voorhees Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D786F8C024167DCD0020E382 /* Debug */,
+				D786F8C124167DCD0020E382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D786F8C224167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D786F8C324167DCD0020E382 /* Debug */,
+				D786F8C424167DCD0020E382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D786F8C524167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees NavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D786F8C624167DCD0020E382 /* Debug */,
+				D786F8C724167DCD0020E382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D786F8C824167DCD0020E382 /* Build configuration list for PBXNativeTarget "Voorhees NavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D786F8C924167DCD0020E382 /* Debug */,
+				D786F8CA24167DCD0020E382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D786F89024167DC80020E382 /* Project object */;
+}
