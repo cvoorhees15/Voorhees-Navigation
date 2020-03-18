@@ -15,6 +15,10 @@
 		D786F8A824167DCD0020E382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D786F8A624167DCD0020E382 /* LaunchScreen.storyboard */; };
 		D786F8B324167DCD0020E382 /* Voorhees_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8B224167DCD0020E382 /* Voorhees_NavigationTests.swift */; };
 		D786F8BE24167DCD0020E382 /* Voorhees_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8BD24167DCD0020E382 /* Voorhees_NavigationUITests.swift */; };
+		D786F8CC24191E430020E382 /* Tab1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8CB24191E430020E382 /* Tab1VC.swift */; };
+		D786F8CE24191E560020E382 /* Tab2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8CD24191E560020E382 /* Tab2VC.swift */; };
+		D786F8D024191E6A0020E382 /* Tab3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8CF24191E6A0020E382 /* Tab3VC.swift */; };
+		D786F8D224191F9C0020E382 /* ManagementTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786F8D124191F9C0020E382 /* ManagementTabVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D786F8B924167DCD0020E382 /* Voorhees NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D786F8BD24167DCD0020E382 /* Voorhees_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_NavigationUITests.swift; sourceTree = "<group>"; };
 		D786F8BF24167DCD0020E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D786F8CB24191E430020E382 /* Tab1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1VC.swift; sourceTree = "<group>"; };
+		D786F8CD24191E560020E382 /* Tab2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2VC.swift; sourceTree = "<group>"; };
+		D786F8CF24191E6A0020E382 /* Tab3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3VC.swift; sourceTree = "<group>"; };
+		D786F8D124191F9C0020E382 /* ManagementTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementTabVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				D786F89D24167DC80020E382 /* SceneDelegate.swift */,
 				D786F89F24167DC80020E382 /* ViewController.swift */,
 				D786F8A124167DC80020E382 /* Main.storyboard */,
+				D786F8D124191F9C0020E382 /* ManagementTabVC.swift */,
+				D786F8CB24191E430020E382 /* Tab1VC.swift */,
+				D786F8CD24191E560020E382 /* Tab2VC.swift */,
+				D786F8CF24191E6A0020E382 /* Tab3VC.swift */,
 				D786F8A424167DCD0020E382 /* Assets.xcassets */,
 				D786F8A624167DCD0020E382 /* LaunchScreen.storyboard */,
 				D786F8A924167DCD0020E382 /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D786F8D024191E6A0020E382 /* Tab3VC.swift in Sources */,
+				D786F8CC24191E430020E382 /* Tab1VC.swift in Sources */,
 				D786F8A024167DC80020E382 /* ViewController.swift in Sources */,
 				D786F89C24167DC80020E382 /* AppDelegate.swift in Sources */,
+				D786F8D224191F9C0020E382 /* ManagementTabVC.swift in Sources */,
+				D786F8CE24191E560020E382 /* Tab2VC.swift in Sources */,
 				D786F89E24167DC80020E382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
